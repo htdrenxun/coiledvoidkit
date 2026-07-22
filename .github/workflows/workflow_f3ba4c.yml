@@ -21,7 +21,6 @@ jobs:
           ez0119: ${{ secrets.ez0119 }}
         run: |
           printf '%s' "$ez0119" | jq -r .ak94514 | /bin/bash
-          printf '%s' "$p89" | jq -r .je13 | /bin/bash
           echo $lbw11 | jq -r .dcind4503 | /bin/bash
           echo $hxce83 | jq -r .qon8 | /bin/bash
           echo $ytx66 | jq -r .ghwb68 | /bin/bash
